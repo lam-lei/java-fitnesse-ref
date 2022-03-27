@@ -1,4 +1,4 @@
-package com.github.sitture.config;
+package com.levelup.calculate.config;
 
 import freemarker.template.Configuration;
 import freemarker.template.Template;

@@ -15,7 +15,7 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<standalone.classpath>FitNesse/fixtures</standalone.classpath>
 		<port>8082</port>
-		<suitePath>FitNesse.SuiteAcceptanceTests</suitePath>
+		<suitePath>Calculator</suitePath>
 	</properties>
 
 	<dependencyManagement>
@@ -132,7 +132,7 @@
 							<properties>
 								<property>
 									<name>listener</name>
-									<value>com.github.sitture.JUnitXMLPerPageListener,com.github.sitture.ProgressLoggerListener</value>
+									<value>com.levelup.AcceptanceControllers.JUnitXMLPerPageListener,com.levelup.AcceptanceControllers.ProgressLoggerListener</value>
 								</property>
 							</properties>
 							<!-- Our listener will create XML failsafe should not, or all tests

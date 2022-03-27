@@ -1,4 +1,4 @@
-package com.github.sitture;
+package com.levelup;
 
 import org.junit.runner.RunWith;
 

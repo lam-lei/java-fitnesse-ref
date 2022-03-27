@@ -1,12 +1,12 @@
-package com.github.sitture;
+package com.levelup;
 
 import java.io.File;
+
+import com.levelup.calculate.config.Environment;
 
 import fitnesse.components.PluginsClassLoaderFactory;
 import org.apache.commons.lang3.StringUtils;
 import org.junit.runners.model.InitializationError;
-
-import com.github.sitture.config.Environment;
 
 import fitnesse.ContextConfigurator;
 import fitnesse.FitNesseContext;

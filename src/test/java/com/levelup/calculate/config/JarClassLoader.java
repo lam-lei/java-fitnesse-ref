@@ -3,7 +3,7 @@
  * and open the template in the editor.
  */
 
-package com.github.sitture.config;
+package com.levelup.calculate.config;
 
 import java.net.MalformedURLException;
 import java.net.URL;

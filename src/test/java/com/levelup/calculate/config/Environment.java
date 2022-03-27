@@ -1,4 +1,4 @@
-package com.github.sitture.config;
+package com.levelup.calculate.config;
 
 import java.io.File;
 import java.util.concurrent.ConcurrentHashMap;
