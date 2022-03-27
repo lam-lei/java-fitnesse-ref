@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<suiteResults>
+  <FitNesseVersion>v20200501</FitNesseVersion>
+  <rootPath>Calculator</rootPath>
+  <pageHistoryReference>
+    <name>Calculator.SimpleCalculatorAddition</name>
+    <date>2022-03-27T16:26:36-04:00</date>
+    <pageHistoryLink>Calculator.SimpleCalculatorAddition?pageHistory&amp;resultDate=20220327162636</pageHistoryLink>
+    <counts>
+      <right>3</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>115</runTimeInMillis>
+  </pageHistoryReference>
+  <executionLog>
+    <testSystem>slim:fitnesse.slim.SlimService</testSystem>
+    <command>/opt/homebrew/opt/openjdk/libexec/openjdk.jdk/Contents/Home/bin/java -cp /Users/erinperry/dev/java-fitnesse-example/java-fitnesse-example/FitNesse/fitnesse-standalone.jar:/Users/erinperry/dev/java-reference/target/test-classes:/Users/erinperry/dev/java-reference/target/classes fitnesse.slim.SlimService 1</command>
+    <exitCode>0</exitCode>
+    <stdOut>WARNING: A terminally deprecated method in java.lang.System has been called
+WARNING: System::setSecurityManager has been called by fitnesse.slim.instructions.SystemExitSecurityManager (file:/Users/erinperry/dev/java-fitnesse-example/java-fitnesse-example/FitNesse/fitnesse-standalone.jar)
+WARNING: Please consider reporting this to the maintainers of fitnesse.slim.instructions.SystemExitSecurityManager
+WARNING: System::setSecurityManager will be removed in a future release
+</stdOut>
+    <stdErr></stdErr>
+  </executionLog>
+  <finalCounts>
+    <right>1</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>310</totalRunTimeInMillis>
+</suiteResults>
+
