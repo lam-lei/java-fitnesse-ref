@@ -2,16 +2,21 @@
 
 An example maven based Fitnesse project generated using [fitnesse-quickstart](https://github.com/sitture/fitnesse-quickstart) archetype.
 
+## Setup and build
+```bash
+mvn clean install
+```
+
 ## Starting FitNesse
 
 ```bash
-mvn clean test
+mvn verify -P fitnesse-server
 ```
 
-By default, fitnesse will start running on port 8082 at `http://127.0.0.1:8082`. To run it on a different port:
+By default, fitnesse will start running on port 8082 on localhost. To run it on a different port, edit pom.xml or 
 
 ```bash
-mvn clean test -Dport=9090
+mvn verify -P fitnesse-server -Dport=9090
 ```
 
 ## Running a FitNesse Suite (JUnit)
@@ -19,15 +24,15 @@ mvn clean test -Dport=9090
 You can run the following to run a suite headlessly.
 
 ```bash
-mvn clean test-compile failsafe:integration-test
+mvn verify
 ```
 
-By default, fitnesse will run `FitNesse.SuiteAcceptanceTests` suite.
+By default, fitnesse will run `Calculator` suite.
 
 To run a different suite:
 
 ```bash
-mvn clean test-compile failsafe:integration-test -DsuitePath=FitNesse.SuiteAcceptanceTests
+mvn verify -DsuitePath=SuitePath
 ```
 ## Base Urls
 
