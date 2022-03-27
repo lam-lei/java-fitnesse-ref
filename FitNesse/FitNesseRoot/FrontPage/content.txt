@@ -1,0 +1,10 @@
+!1 Welcome to [[FitNesse][FitNesse.FitNesse]]!
+!3 ''The fully integrated stand-alone acceptance testing framework and wiki.''
+# Here is a good place to add your first page (WikiWord). For example, MyTopLevelApplicationPage
+|[[Acceptance Tests][Calculator]]|''Calculator Acceptance Tests''|
+
+|'''To Learn More...'''                                                         |
+|[[User Guide][.FitNesse.UserGuide]]|''Answer the rest of your questions here.''|
+
+
+!note Release ${FITNESSE_VERSION}

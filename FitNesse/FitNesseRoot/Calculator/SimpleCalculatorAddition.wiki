@@ -1,0 +1,25 @@
+---
+Test
+---
+#!***> Classpath
+
+!path ../target/test-classes
+!path ../target/classes
+# !path /Users/erinperry/dev/java-reference/target/test-classes
+# !path /Users/erinperry/dev/java-reference/target/classes
+!define TEST_SYSTEM {slim}
+!define COLLAPSE_SETUP {true}
+!define COLLAPSE_TEARDOWN {true}
+|import                                |
+|com.levelup.calculate.fitnesseFixtures|
+
+#*!
+Some of our users are math novices. They want to avoid mistakes when summing two numbers. 
+!img https://specflow.org/wp-content/uploads/2020/09/calculator.png
+
+
+|Calculator Fixture             |
+|First Number|Second Number|Sum?|
+|50          |70           |120 |
+|-50         |10           |-40 |
+|0           |0            |0   |

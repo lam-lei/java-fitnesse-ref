@@ -2,7 +2,6 @@
 FitNesse/fitnesse-standalone.jar
 FitNesse/plugins
 FitNesse/logs
-FitNesse/FitNesseRoot
 FitNesse/fixtures/
 FitNesse/fixtures/
 TestDir
@@ -11,7 +10,6 @@ updateList
 updateDoNotCopyOverList
 
 # Maven/IDE
-test-results/*
 jsunit/*
 agitar/*
 dist/*
@@ -38,5 +36,4 @@ target
 .idea
 *.pyc
 desktop.ini
-fitnesse_results.xml
 **/myenv
