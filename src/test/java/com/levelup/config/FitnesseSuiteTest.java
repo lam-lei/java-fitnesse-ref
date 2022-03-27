@@ -1,4 +1,4 @@
-package com.levelup;
+package com.levelup.config;
 
 import org.junit.runner.RunWith;
 

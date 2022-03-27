@@ -1,8 +1,6 @@
-package com.levelup;
+package com.levelup.config;
 
 import java.io.File;
-
-import com.levelup.config.Environment;
 
 import fitnesse.components.PluginsClassLoaderFactory;
 import org.apache.commons.lang3.StringUtils;
