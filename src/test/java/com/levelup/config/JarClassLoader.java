@@ -3,7 +3,7 @@
  * and open the template in the editor.
  */
 
-package com.levelup.calculate.config;
+package com.levelup.config;
 
 import java.net.MalformedURLException;
 import java.net.URL;

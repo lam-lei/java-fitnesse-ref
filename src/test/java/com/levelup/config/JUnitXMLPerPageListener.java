@@ -1,4 +1,4 @@
-package com.levelup.AcceptanceControllers;
+package com.levelup.config;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -7,7 +7,6 @@ import java.io.IOException;
 import java.io.OutputStreamWriter;
 import java.io.Writer;
 
-import org.apache.commons.lang3.StringEscapeUtils;
 import org.junit.runner.Description;
 import org.junit.runner.notification.Failure;
 import org.junit.runner.notification.RunListener;
@@ -108,7 +107,7 @@ public class JUnitXMLPerPageListener extends RunListener {
 
     protected String getMessage(Throwable exception) {
         String errorMessage = exception.getMessage();
-		return StringEscapeUtils.escapeXml(errorMessage);
+		return (errorMessage);
     }
 
     /**

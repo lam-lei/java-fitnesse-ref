@@ -2,7 +2,7 @@ package com.levelup;
 
 import java.io.File;
 
-import com.levelup.calculate.config.Environment;
+import com.levelup.config.Environment;
 
 import fitnesse.components.PluginsClassLoaderFactory;
 import org.apache.commons.lang3.StringUtils;

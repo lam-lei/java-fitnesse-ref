@@ -1,4 +1,4 @@
-package com.levelup.calculate.config;
+package com.levelup.config;
 
 import freemarker.template.Configuration;
 import freemarker.template.Template;

@@ -132,7 +132,7 @@
 							<properties>
 								<property>
 									<name>listener</name>
-									<value>com.levelup.AcceptanceControllers.JUnitXMLPerPageListener,com.levelup.AcceptanceControllers.ProgressLoggerListener</value>
+									<value>com.levelup.config.JUnitXMLPerPageListener,com.levelup.config.ProgressLoggerListener</value>
 								</property>
 							</properties>
 							<!-- Our listener will create XML failsafe should not, or all tests
